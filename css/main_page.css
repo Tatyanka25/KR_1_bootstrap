@@ -45,16 +45,14 @@ table{
     -webkit-border-radius: 50px / 50px;
     -moz-border-radius: 50px / 50px;
     border-radius: 50px / 50px;
-}
-.figure{
     margin-top: 5px;
     margin-left: 550px;
     text-align: center;
 }
-.figure a{
+#oval a{
     text-decoration: none;
 }
-.figure:hover{
+#oval:hover{
     font-weight: bold;
     transform: scale(1.1);
     box-shadow: 2px 2px 5px white;
