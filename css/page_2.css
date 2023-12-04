@@ -13,7 +13,7 @@ body{
 }
 .table_2{
     margin-top: 100px;
-    background-image: url("/photos/background-image_1.jpg");
+    background-image: url("../photos/background-image_1.jpg");
     padding-bottom: 20px;
 }
 .head th{
