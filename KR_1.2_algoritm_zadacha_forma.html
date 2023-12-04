@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Site2</title>
+    <link rel="stylesheet" href="./css/KR_1.2_dom_js.css">
+</head>
+<body>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+        <td align="center">
+            <font size="15" color="black" face="dom bold">Сайт с домашним заданием</font>
+        </td>
+    </tr>
+    <tr>
+        <td class="menu" align="center">
+            <ul>
+                <li><a href="./KR_1.2.html" target="_self" class="link_1">DOM_JS. Считываем информацию из DOM</a>
+                <li><a href="./passport_click.html" target="_self" class="link_1">Изменяем кириллицу на латиницу по клику</a>
+                <li><a href="./KR_1.2_algoritm_zadacha.html" target="_self" class="link_1">Решение алгоритмической задачи</a>
+                <li><a href="./KR_1.2_algoritm_zadacha_forma.html" target="_self" class="link_1"><b>Решение алгоритмической задачи forma</b></a>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <br><font size="6" color="black" face="dom bold">Решение алгоритмической задачи через форму</font>
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><font size="6">
+            <p>Имеются две ёмкости: кубическая с ребром A, цилиндрическая с высотой H и радиусом основания R.
+                <br>Определить, поместится ли жидкость объёма M в одну из емкостей. Если поместится, то результаты отправить на сервер.</br></p></font>
+            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <p><input name="q" type="hidden" value="search"></p>
+                <p><input name="formulation" type="hidden" value=""></p>
+                <p>A: <input id="A" name="A" type="number" value=5></p>
+                <p>H: <input id="H" name="H" type="number" value=4></p>
+                <p>R: <input id="R" name="R" type="number" value=3></p>
+                <p>M: <input id="M" name="M" type="number" value=120></p>
+                <p>Pезультат решения: <input name="result" value="не определен"></p>
+                <p><input class="button_varify_and_send" id="verify" type="button" value="Проверить"></p>
+                <p><input class="button_varify_and_send" id="send" type="button" value="Отправить"></p>
+            </form>
+            <p id="result" class="form_result">Результаты вычислений:</p>
+        </td>
+    </tr>
+</table>
+</body>
+<script src="./js/abc_form.js"></script>
+</html>

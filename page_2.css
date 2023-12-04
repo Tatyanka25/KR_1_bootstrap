@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.nav-item{
+    font-family: "Comic Sans MS", serif;
+}
+.table_2{
+    margin-top: 100px;
+    background-image: url("/photos/background-image_1.jpg");
+    padding-bottom: 20px;
+}
+.head th{
+    text-align: center;
+    border: 1px solid black;
+}
+.table_2 tr th{
+    text-align: center;
+}
+h2{
+    margin-left: 500px;
+    padding-top: 30px;
+}
+.nav-item{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.dropdown-menu li{
+    font-size: 30px;
+}
+.dropdown-menu li a:hover, .dropdown-menu > li > a:focus {
+    background-color: #f5bce5b6;
+ }
+.number-link {
+    padding-left: 700px;
+    margin-top: -5px;
+}
+.number-link a{
+    text-decoration: none;
+}
+.label{
+    padding: 33px;
+    position: absolute;
+}
+.on_top{
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+}
+.markers li{
+    list-style: none;
+    background: url(/photos/list_icon.png) no-repeat left 50%;
+    padding-left: 40px;
+    background-size: 40px 40px;
+    line-height: 2;
+}
+.markers {
+    margin-left:630px;
+}
+.perehod{
+    text-decoration: none;
+}
+.perehod:hover{
+    font-weight: bold;
+}

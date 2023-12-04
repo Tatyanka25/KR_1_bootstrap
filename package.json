@@ -1,0 +1,66 @@
+[
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "Шоколадный чизкейк",
+    "img": "./photos/cheese_5.png",
+    "price": "480"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "Малиновый чизкейк",
+    "img": "./photos/cheese_3.png",
+    "price": "290"
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "Черничный чизкейк",
+    "img": "./photos/cheeze_chern.png",
+    "price": "360"
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+    "title": "Ежевичный чизкейк",
+    "img": "./photos/cheese_2.png",
+    "price": "320"
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+    "title": "Чизкейк Филадельфия",
+    "img": "./photos/cheese_4.png",
+    "price": "410"
+  },
+  {
+    "albumId": 1,
+    "id": 6,
+    "title": "accusamus ea aliquid et amet sequi nemo",
+    "title": "Чизкейк с рикоттой",
+    "img": "./photos/cheese_6.png",
+    "price": "350"
+  },
+  {
+    "albumId": 1,
+    "id": 7,
+    "title": "Японский чизкейк",
+    "img": "./photos/cheese_7.png",
+    "price": "430"
+  },
+  {
+    "albumId": 1,
+    "id": 8,
+    "title": "Веганский чизкейк",
+    "img": "./photos/cheese_8.png",
+    "price": "440"
+  },
+  {
+    "albumId": 1,
+    "id": 9,
+    "title": "Чизкейк по-чикагски",
+    "img": "./photos/cheese_9.png",
+    "price": "260"
+  }
+]

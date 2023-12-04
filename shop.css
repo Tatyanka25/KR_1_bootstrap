@@ -1,0 +1,17 @@
+body{
+    background-image: url("/photos/bg_4.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.kontainer{
+    position: absolute;
+    padding-top: 100px;
+    top: 50px;
+}
+

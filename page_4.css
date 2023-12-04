@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.nav-item{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.dropdown-menu li{
+    font-size: 30px;
+}
+.dropdown-menu li a:hover, .dropdown-menu > li > a:focus {
+    background-color: #f5bce5b6;
+ }
+.number-link{
+    padding-left: 700px;
+    margin-top: -5px;
+}
+.number-link a{
+    text-decoration: none;
+}
+.plus_minus{
+    cursor: pointer;
+}
+td{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+table{
+    margin-top: 50px;
+}
+fieldset legend {
+    font: 25pt/0 'Averia Serif Libre';
+    margin-left: 10px; /* to center */
+    padding: 0 4px;
+    color: #690949fe;
+}
+p {
+    padding-top: 10px;
+    margin: 40px;
+    color: black;
+    font-size: 30px;
+}
+form div{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+fieldset {
+    padding:10px;
+    border-color: #690949fe;
+    border-radius: 20px;
+    background-color: #ffffffbd;
+    border: 5px;
+}
+h1 {
+    color: black;
+    margin-left: 50px;
+    font-size: 40px;
+    font-family: "Comic Sans MS", serif;
+}
+.submit {
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 80px;
+    width: 250px;
+    color: white;
+    background: #690949fe;
+    border: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+}
+.submit:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.on_top{
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+}
+.container{
+    margin-top: 20px;
+}
+.card{
+    width: 1800px;
+    margin-left: -250px;
+}
+.card-title{
+    padding-bottom: 10px;
+}
+.btn{
+    margin-left: 830px;
+    width: 150px;
+    height: 50px;
+    background-color: deeppink;
+}
+.btn:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.nav-item{
+    font-family: "Comic Sans MS", serif;
+}

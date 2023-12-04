@@ -1,0 +1,23 @@
+table{
+    border: 1px;
+    mso-cellspacing: 0;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+}
+.gradient_1{
+    background: linear-gradient(to top right, #58de4b, #1fab13);
+    border-radius: 10% 0 0 10%;
+}
+.gradient_2 {
+    background: linear-gradient(to bottom left, #58de4b, #1fab13);
+    border-radius: 10% 10% 0 0;
+}
+.image{
+    width: 20px;
+    height: 20px;
+}
+.empty{
+    empty-cells: hide;
+}

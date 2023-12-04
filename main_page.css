@@ -1,0 +1,64 @@
+body {
+    background-image: url("/photos/background-image_4.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.nav-item{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.dropdown-menu li{
+    font-size: 30px;
+}
+.dropdown-menu li a:hover, .dropdown-menu > li > a:focus {
+    background-color: #f5bce5b6;
+ }
+.number-link{
+    padding-left: 700px;
+    margin-top: -5px;
+}
+.number-link a{
+    text-decoration: none;
+}
+.label{
+    padding: 33px;
+    position: absolute;
+}
+.nav-item{
+    font-family: "Comic Sans MS", serif;
+}
+table{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#oval{
+    width: 200px;
+    height: 40px;
+    background: #ff1493;
+    -webkit-border-radius: 50px / 50px;
+    -moz-border-radius: 50px / 50px;
+    border-radius: 50px / 50px;
+}
+.figure{
+    margin-top: 5px;
+    margin-left: 550px;
+    text-align: center;
+}
+.figure a{
+    text-decoration: none;
+}
+.figure:hover{
+    font-weight: bold;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px white;
+}
+.container {
+    margin-top: 400px;
+}

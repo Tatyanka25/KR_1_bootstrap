@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="./css/page_4.css">
+    <!-- Bootstrap CSS (jsDelivr CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+<style>
+    body{
+        background-image: url("/photos/bg_4.jpg");
+    }
+</style>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light"; style="font-size: 30px; text-decoration-color: #442804; background-color: white; padding-left: 10px;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://1000.menu/catalog/chizkeik?ysclid=lopj0in83s887882389" target="_blank"><img src="./photos/logo.jpg" width="100" height="100"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link" href="KR_1.html" target="_self">ГЛАВНАЯ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="KR_1_page_4.html" target="_self" style="font-style: italic; text-decoration: underline deeppink">ЧИЗКЕЙКИ</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="KR_1_page_3.html" target="_self" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            О НАС
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="KR_1_page_3.html#description">Описание</a></li>
+            <li><a class="dropdown-item" href="KR_1_page_3.html#group">Команда</a></li>
+            <li><a class="dropdown-item" href="KR_1_page_3.html#components">Ингредиенты</a></li>
+            <li><a class="dropdown-item" href="KR_1_page_3.html#map">Карта</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="KR_1_page_3.html#friends">Партнеры</a></li>
+            <li><a class="dropdown-item" href="KR_1_page_3.html#sale">Акции</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="KR_1_page_2.html">КОНТАКТЫ</a>
+        </li>
+        <li class="number-link"><div><a href="https://scimmy.ru/" target="_blank" style="margin-left: -70px"><font face="cooper" color="black" size="10">+79105678845</font></a></div></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <h1 class='card-title text-center'>МАГАЗИН</h1>
+            <h4 style="margin-left: 50px;">Выбири способ сортировки:</h4>
+            <input type="radio" id="price" name="sort" style="margin-left: 50px; width: 20px; height: 20px" onchange="sort()"><font size="5px"> Цена </font></input>
+            <input type="radio" id="title" name="sort" style="margin-bottom: 30px; width: 20px; height: 20px"  checked onchange="sort()" ><font size="5px"> Название </font></input>
+            <form action="https://www.bing.com/search?" id="User_Enter" name="UserEnter" target="_blank">
+                <input name="q" type="hidden" value="search">
+                <ul class="d-flex flex-row flex-wrap justify-content-around bg-light" id="node_for_insert">
+                    <!--начало генерируемого фрагмента кода -->
+                </ul>
+                <button style="background-color: deeppink; font-size: 21px" class="btn btn-primary" type="Submit">В КОРЗИНУ</button>
+            </form>
+        </div>
+    </div>
+</div>
+<table cellspacing="0" cellpadding="0" border="0" width="1800" align="center" id="cotalog">
+    <tr id="oformlenie">
+        <td colspan="5">
+            <h1 align="center">ОФОРМЛЕНИЕ ЗАКАЗА</h1>
+            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <div>
+                <fieldset>
+                    <legend>КОНТАКТНАЯ ИНФОРМАЦИЯ</legend>
+                    <p><input type="hidden" name="q" value="search"></p>
+                    <p>Имя<input id="name" name="name" size=20 type="Text" value="Иван" class="form-control form-control-lg mb-3"></p>
+                    <p>Сегодняшняя дата<input id="date" name="date" type="date" value= 01.11.2023 class="form-control form-control-lg mb-3"></p>
+                </fieldset>
+                </div>
+                <div>
+                <fieldset>
+                    <legend>ПЕРСОНАЛЬНАЯ ИНФОРМАЦИЯ</legend>
+                    <p>Возраст <input name="age" size=20 type="Number" value="0" class="form-control form-control-lg mb-3"></p>
+                    <p>Пароль <input name="password" size="20" type="password" value="password" class="form-control form-control-lg mb-3"></p>
+                </fieldset>
+                </div>
+                <div>
+                <fieldset>
+                    <legend>ДОСТАВКА</legend>
+                    <p class="form-check">Способ доставки<br>
+                        <input checked name="delivery" type="Radio" class="form-check-input" value="Курьером">Курьером<br>
+                        <input name="delivery" type="Radio" class="form-check-input" value="Самовывоз из магазина">Самовывоз из магазина<br>
+                        <input name="delivery" type="Radio" class="form-check-input" value="Самовывоз из пункта выдачи">Самовывоз из пункта выдачи<br>
+                    </p>
+                </fieldset>
+                </div>
+                <div>
+                <fieldset>
+                    <legend>ОПЛАТА</legend>
+                    <p>Способ оплаты
+                        <select name="pay" class="form-select form-select-lg mb-3" aria-label="Пример выбора по умолчанию">
+                            <option value="Наличными">Наличными</option>
+                            <option value="Оплата онлайн">Оплата онлайн</option>
+                            <option value="Оплата по QR коду">Оплата по QR коду</option>
+                        </select>
+                    </p>
+                </fieldset>
+                </div>
+                <div>
+                <fieldset>
+                    <legend><br>ПОДАРОК</legend>
+                    <p class="form-check">Выберите все подарки, которые хотите от нас получить<br>
+                    <input type="checkbox" class="form-check-input" name="gift_1" checked><label for="Сертификат на 100 рублей">Сертификат на 100 рублей</label><br>
+                    <input type="checkbox" class="form-check-input" name="gift_2"><label for="Брелок нашего магазина">Брелок нашего магазина</label><br>
+                    <input type="checkbox" class="form-check-input" name="gift_3"><label for="Скидка 5% на следующий заказ">Скидка 5% на следующий заказ</label>
+                    </p>
+                </fieldset>
+                </div>
+                <p align="center">
+                    <button name="submit" type="Submit" class="submit" value="submit">Оформить</button>
+                </p>
+            </form>
+        </td>
+    </tr>
+</table>
+<a href="#top" target="_self" class="on_top"><img src="./photos/top.png" width="100" height="160" alt=""></a>
+<script src="./js/api.js"></script>
+</body>
+</html>

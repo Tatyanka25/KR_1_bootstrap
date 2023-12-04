@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passport_seminar_2</title>
+    <link rel="stylesheet" href="./css/KR_1.2_dom_js.css">
+    <style type="text/css">
+        body {
+            background-image: url("/photos/background_1.jpg");
+            background-color: black;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .menu{
+            list-style: none;
+            margin: 0px;
+            padding: 0 50px;
+            line-height: 102px;
+            float: right;
+            margin-right: 100px;
+        }
+        ul li{
+            display: inline-block;
+            padding: 0 10px;
+            height: 100px;
+            margin: 0 10px;
+            float: left;
+            box: 10px 40px;
+        }
+        .link_1 {
+            font-size: 25px;
+            text-decoration: none;
+            color: black;
+        }
+        .menu li:hover {
+            font-weight: lighter;
+            transform: scale(1);
+            box-shadow: 2px 2px 5px black;
+            cursor: pointer;
+        }
+        .block1{
+            margin-left: 10px;
+            margin-top: -570px;
+            font: bold 90% serif;
+        }
+        .block2{
+            margin-left: -180px;
+            margin-top: 20px;
+        }
+        .block3{
+           margin-left: 220px;
+            margin-top: -17px;
+        }
+        .block4{
+            margin-left: 100px;
+            margin-top: 185px;
+            font: bold 100% serif;
+        }
+        .block5{
+            margin-left: 100px;
+            margin-top: 29px;
+        }
+        .block6 {
+            margin-left: 100px;
+            margin-top: 4px;
+        }
+        .block7 {
+            margin-left: -60px;
+            margin-top: 4px;
+        }
+        .block8 {
+            margin-left: 200px;
+            margin-top: -18px;
+        }
+        .block9 {
+            margin-left: 110px;
+            margin-top: 3px;
+        }
+        .photo {
+            margin-left: -270px;
+            margin-top: -100px;
+        }
+        .button{
+            margin-top: 120px;
+        }
+    </style>
+</head>
+<body>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+        <td align="center">
+            <font size="15" color="black" face="dom bold">Сайт с домашним заданием</font>
+        </td>
+    </tr>
+    <tr height="100">
+        <td class="menu" align="center">
+            <ul>
+                <li><a href="./KR_1.2.html" target="_self" class="link_1">DOM_JS. Считываем информацию из DOM</a>
+                <li><a href="./passport_click.html" target="_self" class="link_1"><b>Изменяем кириллицу на латиницу по клику</b></a>
+                <li><a href="./KR_1.2_algoritm_zadacha.html" target="_self" class="link_1">Решение алгоритмической задачи</a>
+                <li><a href="./KR_1.2_algoritm_zadacha_forma.html" target="_self" class="link_1">Решение алгоритмической задачи forma</a>
+            </ul>
+        </td>
+    </tr>
+    <tr height="100">
+        <td align="center">
+            <br><font size="6" color="black" face="dom bold">Изменяем кириллицу на латиницу по клику</font>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <div><img src="./photos/Passpotr_shablon.png"></div>
+            <div class="block1">ГУ МВД РОССИИ<br><br> ПО НИЖЕГОРОДСКОЙ ОБЛАСТИ </div>
+            <div class="block2"> 26.02.2014</div>
+            <div class="block3"> 560-075</div>
+            <div class="block4"> ЛАПШИНА </div>
+            <div class="block5"> ТАТЬЯНА </div>
+            <div class="block6"> АЛЕКСАНДРОВНА </div>
+            <div class="block7"> ЖЕН. </div>
+            <div class="block8"> 25.01.2004 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+            <div class="block9"> Г. НИЖНИЙ НОВГОРОД<br>РОССИЯ</div>
+            <div class="photo"> <img src="photos/Girl_photo.jpg" height="120" width="100"> </div>
+        </td>
+    <tr>
+        <td>
+            <p align="center" class="button"><font size="5px" color=white>ДЛЯ ИЗМЕНЕНИЯ КЛИКНУТЬ ЗДЕСЬ:</font></p>
+            <p align="center" id="for_click_surname"><font size="5px" color=white>Изменить фамилию</font></p>
+            <p align="center" id="for_click_name"><font size="5px" color=white>Изменить имя</font></p>
+            <p align="center" id="for_click_middle_name"><font size="5px" color=white>Изменить отчество</font></p>
+            <p align="center" id="for_click_date_of_birth"><font size="5px" color=white>Изменить дату рождения</font></p>
+            <p align="center" id="for_click_date_of_issue"><font size="5px" color=white>Изменить дату выдачи</font></p>
+        </td>
+    </tr>
+</table>
+</body>
+<script src="./js/function_seminar_2.js"></script>
+</html>
