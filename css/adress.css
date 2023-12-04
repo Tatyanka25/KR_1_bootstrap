@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("/photos/background-image_4.jpg");
+    background-color: rgb(255, 255, 255, 0.67);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+figure {
+    background-color: #FFFFFF00;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 650px;
+    outline-style: solid;
+    outline-color: black;
+}
+figcaption {
+    border: 5px;
+    text-shadow: 2px 2px 5px black;
+    font-size: 42px;
+}
+p{
+    text-align: center;
+    padding-left: 15px;
+}
+.perehod{
+text-decoration: none;
+}
+.perehod:hover{
+    font-weight: bold;
+}
+.map{
+    margin-top: 350px;
+}

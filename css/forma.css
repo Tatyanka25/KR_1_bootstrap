@@ -1,0 +1,43 @@
+fieldset legend{
+    font: 15pt/0 'Averia Serif Libre';
+    margin-left: 10px; /* to center */
+    padding: 0 4px;
+    color: darkcyan;
+}
+p {
+    padding-top: 10px;
+    margin: 40px;
+    color: darkred;
+    font-size: 20px;
+}
+fieldset {
+    padding:10px;
+    border:2px solid darkcyan;
+    margin:20px;
+    border-radius: 20px;
+    background-color: palegoldenrod;
+}
+.figure {
+    position: absolute;
+    left: 350px;
+    font-size: 17px;
+}
+select {
+    position: absolute;
+    left: 200px;
+}
+textarea {
+    outline: none;
+    resize: none;
+    margin-left: 270px;
+    display: block;
+}
+h2 {
+    color: darkred;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.submit {
+    font-size: 20px;
+    cursor: pointer;
+}
