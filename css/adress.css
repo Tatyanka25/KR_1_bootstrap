@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("/photos/background-image_4.jpg");
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../photos/background-image_4.jpg");
     background-color: rgb(255, 255, 255, 0.67);
     background-repeat: no-repeat;
     background-position: center center;
