@@ -13,9 +13,6 @@ body{
     padding-right: 50px;
     font-family: "Comic Sans MS", serif;
 }
-.nav-link {
-    font-size: 25px;
-}
 .dropdown-menu li{
     font-size: 30px;
 }
@@ -146,8 +143,5 @@ p{
     }
     .dropdown-menu li{
     font-size: 17px;
-    }
-    .nav-link {
-        font-size: 20px;
     }
 }
