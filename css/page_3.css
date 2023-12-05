@@ -105,3 +105,9 @@ ol{
     bottom: 0;
     right: 30px;
 }
+@media screen and (max-width: 900px) {
+    table {
+        width: px;
+        margin-top:-250px;
+    }
+}
