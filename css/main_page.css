@@ -55,12 +55,10 @@ body {
 .block {
     margin-top: 400px;
 }
-@media screen and (max-width: 1170px){
+@media screen and (max-width: 600px){
 .dropdown-menu li {
     font-size: 10px;
 }
-}
-@media screen and (max-width: 1170px){
 .block {
     margin-top: 600px;
 }
