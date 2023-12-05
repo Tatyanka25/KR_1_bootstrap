@@ -52,6 +52,10 @@ button:hover{
 .container {
     margin-top: 400px;
 }
+ .navbar-brand img {
+    width: 30px;
+    height: 30px;
+}
 @media screen and (max-width: 900px) {
     .block1 {
         margin-top: 30px;
@@ -59,5 +63,9 @@ button:hover{
     .number-link{
         padding-left: 10px;
         margin-top: -5px;
+    .navbar-brand img {
+        width: 15px;
+        height: 15px;
+    }
 }
 }
