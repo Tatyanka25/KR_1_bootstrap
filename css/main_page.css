@@ -59,7 +59,10 @@ body {
 .dropdown-menu li {
     font-size: 10px;
 }
+.block{
+    margin-top: 600px;
+}
 .block1{
-    margin-left: -50px;
+    margin-left: -10px;
 }
 }
