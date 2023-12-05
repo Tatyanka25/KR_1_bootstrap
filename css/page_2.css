@@ -27,12 +27,10 @@ body{
     width: 100px;
     height: 100px;
 }
-.block1 {
-    margin-top: -250px;
-}
 .table_2{
     background-image: url("../photos/background-image_1.jpg");
     padding-bottom: 20px;
+    margin-top: -250px;
 }
 .head th{
     text-align: center;
@@ -104,8 +102,7 @@ h2{
         line-height: 2;
         font-size: 8px;
     }
-    .block1 {
-        margin-left: 10px;
+    .table_2 {
         margin-top: -40px;
     }
     h2{
