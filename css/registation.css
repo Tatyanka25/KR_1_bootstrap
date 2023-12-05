@@ -65,4 +65,8 @@ button:hover {
     font-weight: bold;
     transform: scale(1.1);
 }
-
+@media screen and (max-width: 900px) {
+    form {
+        height: 650px;
+    }
+}
