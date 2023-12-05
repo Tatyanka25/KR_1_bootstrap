@@ -36,6 +36,8 @@ button {
 }
 button a{
     text-decoration: none;
+    font-size: 30px;
+    color: white;
 }
 button:hover{
     font-weight: bold;
@@ -69,6 +71,9 @@ button:hover{
     button {
         width: 150px;
         height: 25px;
+    }
+    button a {
+    font-size: 20px;
     }
 }
 }
