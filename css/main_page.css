@@ -58,6 +58,9 @@ button:hover{
 }
 .block1 {
     margin-top: 250px;
+    font-size: 40px;
+    font-family: Consolas, serif;
+    color: #EEC2FD;
 }
 @media screen and (max-width: 900px) {
     .block1 {
@@ -71,6 +74,9 @@ button:hover{
     .navbar-brand img {
         width: 15px;
         height: 15px;
+    }
+    .block1 {
+    font-size: 20px;
     }
 }
 }
