@@ -56,4 +56,8 @@ button:hover{
     .block1 {
         margin-top: 30px;
     }
+    .number-link{
+        padding-left: 10px;
+        margin-top: -5px;
+}
 }
