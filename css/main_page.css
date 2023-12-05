@@ -46,7 +46,7 @@ table{
     -moz-border-radius: 50px / 50px;
     border-radius: 50px / 50px;
     margin-top: 5px;
-    margin-left: 1010px;
+    margin-left: 550px;
     text-align: center;
 }
 #oval a{
@@ -57,14 +57,6 @@ table{
     transform: scale(1.1);
     box-shadow: 2px 2px 5px white;
 }
-.block {
+.container {
     margin-top: 400px;
-}
-@media screen and (max-width: 600px){
-.dropdown-menu li {
-    font-size: 10px;
-}
-.block1{
-    margin-left: -5000px;
-}
 }
