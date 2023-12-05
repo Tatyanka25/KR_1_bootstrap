@@ -144,4 +144,7 @@ h2{
         width: 40px;
         height: 40px;
     }
+    .dropdown-menu li{
+    font-size: 17px;
+    }
 }
