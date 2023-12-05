@@ -22,26 +22,26 @@ body{
 }
 .table_2 tr th{
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
 }
 .table_2 tr td{
-    font-size: 15px;
+    font-size: 25px;
 }
 .th1{
-    width: 100px;
+    width: 200px;
 }
 .th2{
-    width: 200px;
+    width: 300px;
 }
 .th3{
-    width: 250px;
+    width: 350px;
 }
 .th4{
-    width: 100px;
+    width: 200px;
 }
 td img{
-    width: 200px;
-    height: 160px;
+    width: 340px;
+    height: 290px;
 }
 h2{
     margin-left: 500px;
