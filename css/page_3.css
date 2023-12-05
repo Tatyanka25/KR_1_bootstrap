@@ -11,6 +11,7 @@ body{
 }
 table {
     width: 1600px;
+    margin-top:-250px;
 }
 .line{
     height: 4px;
