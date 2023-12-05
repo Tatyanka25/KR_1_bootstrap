@@ -19,7 +19,7 @@ table {
     height: 80px;
     font-size: 45px;
 }
-.photo_link {
+.photo_link img {
     width: 100px;
     height: 300px;
 }
