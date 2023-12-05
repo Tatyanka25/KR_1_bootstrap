@@ -58,11 +58,10 @@ body {
 @media screen and (max-width: 600px){
 .dropdown-menu li {
     font-size: 10px;
-},
-.block{
+}
+}
+@media screen and (max-width: 600px){
+.block {
     margin-top: 600px;
-},
-.block1{
-    margin-left: -10px;
 }
 }
