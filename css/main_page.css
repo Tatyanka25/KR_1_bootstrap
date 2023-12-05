@@ -55,7 +55,7 @@ body {
 .container {
     margin-top: 400px;
 }
-@media screen and (max-width: 610px){
+@media screen and (max-width: 500px){
 .dropdown-menu li {
     font-size: 5px;
 }
