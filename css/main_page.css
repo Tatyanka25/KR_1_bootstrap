@@ -60,7 +60,7 @@ table{
 .container {
     margin-top: 400px;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1200px){
     .block1 {
         margin-left: -300px
     }
