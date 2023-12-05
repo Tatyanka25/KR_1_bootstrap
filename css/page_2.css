@@ -11,12 +11,10 @@ body{
 .nav-item{
     font-family: "Comic Sans MS", serif;
 }
-.block1 {
-    margin-top: -400px;
-}
 .table_2{
     background-image: url("../photos/background-image_1.jpg");
     padding-bottom: 20px;
+    margin-top: -250px;
 }
 .head th{
     text-align: center;
