@@ -50,7 +50,7 @@ table {
     font-size: 45px;
 }
 .carusel {
-    height: 400px;
+    height: 600px;
 }
 .block2 a img {
     width: 100px;
@@ -147,7 +147,7 @@ ol{
         font-size: 20px;
     }
     .carusel {
-        height: 200px;
+        height: 400px;
     }
     .block2 a img {
         width: 40px;
