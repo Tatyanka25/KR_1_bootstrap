@@ -41,7 +41,7 @@ body {
     -moz-border-radius: 50px / 50px;
     border-radius: 50px / 50px;
     margin-top: 5px;
-    margin-left: 550px;
+    margin-left: 1010px;
     text-align: center;
 }
 #oval a{
@@ -52,14 +52,14 @@ body {
     transform: scale(1.1);
     box-shadow: 2px 2px 5px white;
 }
-.container {
+.block {
     margin-top: 400px;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 .dropdown-menu li {
-    font-size: 5px;
+    font-size: 10px;
 }
-.d-block{
-    margin-left: 60px;
+.block1{
+    margin-left: -50px;
 }
 }
