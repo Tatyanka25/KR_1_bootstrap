@@ -59,7 +59,7 @@ td img{
     width: 340px;
     height: 290px;
 }
-h2{
+p{
     margin-left: 500px;
     padding-top: 30px;
     font-size: 40px;
@@ -105,7 +105,7 @@ h2{
     .table_2 {
         margin-top: -40px;
     }
-    h2{
+    p{
         margin-left: 10px;
         padding-top: 10px;
         font-size: 10px;
