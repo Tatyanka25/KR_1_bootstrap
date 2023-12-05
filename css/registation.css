@@ -67,6 +67,6 @@ button:hover {
 }
 @media screen and (max-width: 900px) {
     form {
-        height: 650px;
+        height: 800px;
     }
 }
