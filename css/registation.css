@@ -87,4 +87,7 @@ button:hover {
         transform: translateX(10px);
         width: 200px;
     }
+    h1 {
+       font-size: 20px; 
+    }
 }
