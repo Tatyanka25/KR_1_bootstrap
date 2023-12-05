@@ -9,7 +9,19 @@ body{
     background-size: cover;
 }
 .nav-item{
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: "Comic Sans MS", serif;
+}
+.dropdown-menu li{
+    font-size: 30px;
+}
+.dropdown-menu li a:hover, .dropdown-menu > li > a:focus {
+    background-color: #f5bce5b6;
+ }
+.label{
+    padding: 33px;
+    position: absolute;
 }
 .block1 {
     margin-top: -250px;
@@ -49,20 +61,6 @@ h2{
     margin-left: 500px;
     padding-top: 30px;
     font-size: 40px;
-}
-.nav-item{
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.dropdown-menu li{
-    font-size: 30px;
-}
-.dropdown-menu li a:hover, .dropdown-menu > li > a:focus {
-    background-color: #f5bce5b6;
- }
-.label{
-    padding: 33px;
-    position: absolute;
 }
 .block4 a img {
     width: 100px;
