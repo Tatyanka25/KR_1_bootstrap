@@ -57,6 +57,6 @@ body {
 }
 @media screen and (max-width: 600px){
 .dropdown-menu li {
-    font-size: 10px;
+    font-size: 5px;
 }
 }
