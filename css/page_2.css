@@ -56,13 +56,6 @@ h2{
 .dropdown-menu li a:hover, .dropdown-menu > li > a:focus {
     background-color: #f5bce5b6;
  }
-.number-link {
-    padding-left: 700px;
-    margin-top: -5px;
-}
-.number-link a{
-    text-decoration: none;
-}
 .label{
     padding: 33px;
     position: absolute;
@@ -87,4 +80,43 @@ h2{
 }
 .perehod:hover{
     font-weight: bold;
+}
+@media screen and (max-width: 900px) {
+    .markers {
+        margin-left:20px;
+    }
+    .markers li{
+        list-style: none;
+        background: url(../photos/list_icon.png) no-repeat left 50%;
+        padding-left: 15px;
+        background-size: 15px 15px;
+        line-height: 2;
+    }
+    h2{
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .table_2 tr th{
+    text-align: center;
+    font-size: 8px;
+    }
+    .table_2 tr td{
+        font-size: 8px;
+    }
+    .th1{
+        width: 50px;
+    }
+    .th2{
+        width: 150px;
+    }
+    .th3{
+        width: 200px;
+    }
+    .th4{
+        width: 50px;
+    }
+    td img{
+        width: 180px;
+        height: 150px;
+    }
 }
