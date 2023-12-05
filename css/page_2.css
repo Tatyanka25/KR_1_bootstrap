@@ -20,9 +20,22 @@ body{
     text-align: center;
     border: 1px solid black;
     font-size: 20px;
+    color: black;
 }
 .table_2 tr th{
     text-align: center;
+}
+.th1{
+    width: 250px;
+}
+.th2{
+    width: 450px;
+}
+.th3{
+    width: 400px;
+}
+.th4{
+    width: 250px;
 }
 h2{
     margin-left: 500px;
