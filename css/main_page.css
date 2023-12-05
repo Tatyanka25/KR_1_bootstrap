@@ -62,7 +62,7 @@ body {
 .block {
     margin-top: 600px;
 }
-.block1 {
+.block1 a{
     margin-left: 100px;
 }
 }
