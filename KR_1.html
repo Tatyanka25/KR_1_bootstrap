@@ -2,6 +2,7 @@
 <html lang="en" xmlns:http="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Сайт</title>
     <link rel="stylesheet" href="./css/main_page.css">
     <!-- Bootstrap CSS (jsDelivr CDN) -->
@@ -16,7 +17,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
+    <div class="collapse navbar-collapse col-sm-4 col-lg-11" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
             <a class="nav-link" href="KR_1.html" target="_self" style="font-style: italic; text-decoration: underline deeppink">ГЛАВНАЯ</a>
@@ -47,12 +48,16 @@
   </div>
 </nav>
 <div class="container">
-    <div class="block" align="center">
-        <font color="#ff1493" size="6" face="harlov gold italic">В Нижнем Новгороде</font><br>
-        <font face="mogucto" color="white" size="15">ЛУЧШИЕ ЧИЗКЕЙКИ</font>
-    </div>
-    <div align="center" id="oval" class="block1">
-        <a href="KR_1_registration.html" target="_blank"><font color="white" size="5">РЕГИСТРАЦИЯ</font></a>
+    <div class="row">
+      <div class="col">
+          <div class="block" align="center">
+              <font color="#ff1493" size="6" face="harlov gold italic">В Нижнем Новгороде</font><br>
+              <font face="mogucto" color="white" size="15">ЛУЧШИЕ ЧИЗКЕЙКИ</font>
+          </div>
+          <div align="center" id="" class="block">
+              <button><a href="KR_1_registration.html" target="_blank"><font color="white" size="5">РЕГИСТРАЦИЯ</font></a></button>
+          </div>
+      </div>
     </div>
 </div>
 </body>
