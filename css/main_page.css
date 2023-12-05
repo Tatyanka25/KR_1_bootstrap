@@ -1,5 +1,5 @@
 body {
-    background-image: url("../photos/background-image_4.jpg");
+    background-image: url("/photos/background-image_4.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-position: center center;
@@ -33,6 +33,11 @@ body {
 .nav-item{
     font-family: "Comic Sans MS", serif;
 }
+table{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 #oval{
     width: 200px;
     height: 40px;
@@ -41,7 +46,7 @@ body {
     -moz-border-radius: 50px / 50px;
     border-radius: 50px / 50px;
     margin-top: 5px;
-    margin-left: 550px;
+    margin-left: 1010px;
     text-align: center;
 }
 #oval a{
@@ -55,14 +60,11 @@ body {
 .block {
     margin-top: 400px;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1170px){
 .dropdown-menu li {
     font-size: 10px;
 }
-.block {
-    margin-top: 600px;
-}
-.block1 {
-    width: 50px;
+.block1{
+    margin-left: -50px;
 }
 }
