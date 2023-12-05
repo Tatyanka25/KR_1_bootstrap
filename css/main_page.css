@@ -38,30 +38,17 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
-#oval{
-    width: 200px;
-    height: 40px;
-    background: #ff1493;
-    -webkit-border-radius: 50px / 50px;
-    -moz-border-radius: 50px / 50px;
-    border-radius: 50px / 50px;
-    margin-top: 5px;
-    margin-left: 550px;
-    text-align: center;
+button {
+    background-color: deeppink;
 }
-#oval a{
+button a{
     text-decoration: none;
 }
-#oval:hover{
+button:hover{
     font-weight: bold;
     transform: scale(1.1);
     box-shadow: 2px 2px 5px white;
 }
 .container {
     margin-top: 400px;
-}
-@media screen and (max-width: 1200px){
-    .block1 {
-        margin-left: -300px
-    }
 }
