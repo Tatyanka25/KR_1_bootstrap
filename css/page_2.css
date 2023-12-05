@@ -63,6 +63,10 @@ h2{
     padding: 33px;
     position: absolute;
 }
+.block4 a img {
+    width: 30px;
+    height: 70px;
+}
 .on_top{
     position: fixed;
     bottom: 0;
@@ -121,5 +125,9 @@ h2{
     td img{
         width: 130px;
         height: 70px;
+    }
+    .block4 a img {
+        width: 10px;
+        height: 40px;
     }
 }
