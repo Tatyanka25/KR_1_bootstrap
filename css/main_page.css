@@ -19,13 +19,6 @@ body {
 .dropdown-menu li a:hover, .dropdown-menu > li > a:focus {
     background-color: #f5bce5b6;
  }
-.number-link{
-    padding-left: 700px;
-    margin-top: -5px;
-}
-.number-link a{
-    text-decoration: none;
-}
 .label{
     padding: 33px;
     position: absolute;
@@ -53,8 +46,8 @@ button:hover{
     margin-top: 400px;
 }
  .navbar-brand img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 .block1 {
     margin-top: 320px;
@@ -66,14 +59,9 @@ button:hover{
     .block1 {
         margin-top: 70px;
     }
-    .number-link{
-        padding-left: 80px;
-        margin-top: -5px;
-        font-size: 20px;
-    }
     .navbar-brand img {
-        width: 15px;
-        height: 15px;
+        width: 25px;
+        height: 25px;
     }
     .block1 {
     font-size: 20px;
