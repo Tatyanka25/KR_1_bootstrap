@@ -48,6 +48,7 @@ td img{
 h2{
     margin-left: 500px;
     padding-top: 30px;
+    font-size: 40px;
 }
 .nav-item{
     padding-left: 50px;
@@ -78,6 +79,7 @@ h2{
     padding-left: 40px;
     background-size: 40px 40px;
     line-height: 2;
+    font-size: 25px;
 }
 .markers {
     margin-left:630px;
