@@ -9,6 +9,49 @@ body{
     background-size: cover;
 
 }
+table {
+    width: 1100px;
+}
+.line{
+    height: 4px;
+}
+#group {
+    height: 80px;
+    font-size: 45px;
+}
+.photo_link {
+    width: 100px;
+    height: 300px;
+}
+.names td {
+    font-size: 30px;
+}
+#components {
+    font-size: 45px;
+}
+#map {
+    font-size: 45px;
+}
+.maps {
+    font-size: 55px;
+}
+.maps a img {
+    width: 100px;
+    height: 100px;
+}
+#friends {
+    font-size: 45px;
+}
+#sale {
+    font-size: 45px;
+}
+.carusel {
+    height: 400px;
+}
+.on_top img {
+    width: ;
+    height: ;
+}
 .nav-item{
     font-family: "Comic Sans MS", serif;
 }
@@ -22,13 +65,6 @@ body{
 .dropdown-menu li a:hover, .dropdown-menu > li > a:focus {
     background-color: #f5bce5b6;
  }
-.number-link{
-    padding-left: 700px;
-    margin-top: -5px;
-}
-.number-link a{
-    text-decoration: none;
-}
 .label{
     padding: 33px;
     position: absolute;
@@ -47,6 +83,9 @@ ol{
 }
 .link:hover{
     font-weight: bold;
+}
+.zackladka {
+    height: 100px;
 }
 .zakladka div{
     display: inline-block;
