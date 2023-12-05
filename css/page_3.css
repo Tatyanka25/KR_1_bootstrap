@@ -110,7 +110,7 @@ ol{
 }
 @media screen and (max-width: 900px) {
     table {
-        width: 100px;
+        width: 300px;
         margin-top:-150px;
     }
     .line{
