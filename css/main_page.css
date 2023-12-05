@@ -71,5 +71,8 @@ button:hover{
         width: 150px;
         height: 25px;
     }
+    .dropdown-menu li{
+    font-size: 17px;
+    }
 }
 }
