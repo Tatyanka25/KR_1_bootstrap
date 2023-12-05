@@ -33,11 +33,6 @@ body {
 .nav-item{
     font-family: "Comic Sans MS", serif;
 }
-table{
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
 #oval{
     width: 200px;
     height: 40px;
