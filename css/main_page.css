@@ -13,7 +13,6 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     font-family: "Comic Sans MS", serif;
-    font-size: 33px;
 }
 .dropdown-menu li{
     font-size: 30px;
@@ -55,6 +54,9 @@ button:hover{
     font-family: Consolas, serif;
     color: #EEC2FD;
 }
+.nav-link {
+    font-size: 25px;
+}
 @media screen and (max-width: 900px) {
     .block1 {
         margin-top: 180px;
@@ -71,7 +73,7 @@ button:hover{
     .dropdown-menu li{
         font-size: 17px;
     }
-    .nav-item {
+    .nav-link {
         font-size: 20px;
     }
 }
