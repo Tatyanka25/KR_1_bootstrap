@@ -12,6 +12,7 @@ body {
 .nav-item{
     padding-left: 50px;
     padding-right: 50px;
+    font-family: "Comic Sans MS", serif;
 }
 .dropdown-menu li{
     font-size: 30px;
@@ -22,9 +23,6 @@ body {
 .label{
     padding: 33px;
     position: absolute;
-}
-.nav-item{
-    font-family: "Comic Sans MS", serif;
 }
 table{
     margin-top: 0;
