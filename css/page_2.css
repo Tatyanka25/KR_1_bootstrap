@@ -19,26 +19,29 @@ body{
 .head th{
     text-align: center;
     border: 1px solid black;
-    font-size: 15px;
 }
 .table_2 tr th{
     text-align: center;
+    font-size: 15px;
+}
+.table_2 tr td{
+    font-size: 15px;
 }
 .th1{
-    width: 250px;
+    width: 100px;
 }
 .th2{
-    width: 450px;
+    width: 200px;
 }
 .th3{
-    width: 400px;
-}
-.th4{
     width: 250px;
 }
+.th4{
+    width: 100px;
+}
 td img{
-    width: 400px;
-    height: 350px;
+    width: 200px;
+    height: 160px;
 }
 h2{
     margin-left: 500px;
