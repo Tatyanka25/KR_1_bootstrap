@@ -74,7 +74,7 @@ h2{
 }
 .markers li{
     list-style: none;
-    background: url(/photos/list_icon.png) no-repeat left 50%;
+    background: url(../photos/list_icon.png) no-repeat left 50%;
     padding-left: 40px;
     background-size: 40px 40px;
     line-height: 2;
