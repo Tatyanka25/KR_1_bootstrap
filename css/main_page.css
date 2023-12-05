@@ -60,3 +60,6 @@ table{
 .container {
     margin-top: 400px;
 }
+.col-sm-10 {
+    margin-left: -50px;
+}
