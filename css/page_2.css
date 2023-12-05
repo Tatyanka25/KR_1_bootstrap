@@ -64,8 +64,8 @@ h2{
     position: absolute;
 }
 .block4 a img {
-    width: 30px;
-    height: 70px;
+    width: 60px;
+    height: 140px;
 }
 .on_top{
     position: fixed;
@@ -127,7 +127,7 @@ h2{
         height: 70px;
     }
     .block4 a img {
-        width: 10px;
-        height: 40px;
+        width: 40px;
+        height: 80px;
     }
 }
