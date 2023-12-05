@@ -52,3 +52,9 @@ button:hover{
 .container {
     margin-top: 400px;
 }
+@media screen and (max-width: 1200px){
+    .dropdown-menu li{
+    font-size: 10px;
+    }
+}
+}
