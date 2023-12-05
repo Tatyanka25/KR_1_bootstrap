@@ -54,9 +54,6 @@ button:hover{
     font-family: Consolas, serif;
     color: #EEC2FD;
 }
-.nav-link {
-    font-size: 25px;
-}
 @media screen and (max-width: 900px) {
     .block1 {
         margin-top: 180px;
@@ -73,8 +70,4 @@ button:hover{
     .dropdown-menu li{
         font-size: 17px;
     }
-    .nav-link {
-        font-size: 20px;
-    }
-}
 }
