@@ -110,8 +110,8 @@ h1 {
 }
 @media screen and (max-width: 900px) {
     .card {
-        width: 500px;
-        margin-left: 100px;
+        width: 300px;
+        margin-left: 20px;
     }
     .navbar-brand img {
         width: 40px;
@@ -124,7 +124,7 @@ h1 {
         padding: 5px;
         border-radius: 5px;
         border: 2px;
-        width: 300px;
+        width: 250px;
     }
     p {
         padding-top: 5px;
@@ -132,22 +132,29 @@ h1 {
         font-size: 15px;
     }
     fieldset legend {
-        font: 12pt/0 'Averia Serif Libre';
+        font: 10pt/0 'Averia Serif Libre';
     }
     h1 {
         margin-left: 20px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .btn{
         margin-left: 20px;
-        width: 100px;
-        height: 30px;
+        width: 150px;
+        height: 50px;
     }
     input {
         heght: 30px;
         width: 200px;
     }
     table {
-        width: 500px;
+        width: 300px;
+    }
+    .submit {
+        padding: 5px 5px;
+        height: 50px;
+        width: 150px;
+        font-size: 15px;
+        border-radius: 5px;
     }
 }
