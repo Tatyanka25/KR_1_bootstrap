@@ -143,4 +143,8 @@ h1 {
         width: 100px;
         height: 30px;
     }
+    input {
+        heght: 30px;
+        width: 200px;
+    }
 }
