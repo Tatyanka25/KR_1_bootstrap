@@ -11,6 +11,7 @@ body{
 .nav-item{
     padding-left: 50px;
     padding-right: 50px;
+    font-family: "Comic Sans MS", serif;
 }
 .dropdown-menu li{
     font-size: 30px;
@@ -18,12 +19,9 @@ body{
 .dropdown-menu li a:hover, .dropdown-menu > li > a:focus {
     background-color: #f5bce5b6;
  }
-.number-link{
-    padding-left: 700px;
-    margin-top: -5px;
-}
-.number-link a{
-    text-decoration: none;
+.label{
+    padding: 33px;
+    position: absolute;
 }
 .plus_minus{
     cursor: pointer;
