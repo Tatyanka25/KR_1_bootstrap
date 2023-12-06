@@ -33,6 +33,7 @@ td{
 }
 table{
     margin-top: 50px;
+    width: 1700px;
 }
 fieldset legend {
     font: 25pt/0 'Averia Serif Libre';
@@ -131,5 +132,9 @@ h1 {
     }
     fieldset legend {
         font: 15pt/0 'Averia Serif Libre';
+    }
+    h1 {
+        margin-left: 20px;
+        font-size: 20px;
     }
 }
