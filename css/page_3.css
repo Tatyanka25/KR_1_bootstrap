@@ -105,6 +105,9 @@ ol{
     bottom: 0;
     right: 30px;
 }
+.carusel {
+    height: 600px;
+}
 @media screen and (max-width: 900px) {
     table {
         width: 300px;
@@ -160,5 +163,8 @@ ol{
     display: inline-block;
     padding: 0 5px;
     font-size: 8px;
+    }
+    .carusel {
+        height: 400px;
     }
 }
