@@ -135,7 +135,7 @@ h1 {
         font: 8pt/0 'Averia Serif Libre';
     }
     h1 {
-        margin-left: 20px;
+        margin-left: -200px;
         font-size: 20px;
     }
     .btn{
