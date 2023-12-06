@@ -124,4 +124,9 @@ h1 {
         border: 2px;
         width: 500px;
     }
+    p {
+        padding-top: 5px;
+        margin: 20px;
+        font-size: 15px;
+}
 }
