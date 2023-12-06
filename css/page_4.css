@@ -135,7 +135,7 @@ h1 {
         font: 12pt/0 'Averia Serif Libre';
     }
     h1 {
-        margin-left: -200px;
+        margin-left: 20px;
         font-size: 20px;
     }
     .btn{
@@ -147,7 +147,7 @@ h1 {
         heght: 30px;
         width: 200px;
     }
-    .submit {
-        margin-left: -200px;
+    table {
+        width: 500px;
     }
 }
