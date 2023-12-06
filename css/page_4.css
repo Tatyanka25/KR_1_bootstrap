@@ -112,3 +112,8 @@ h1 {
 .nav-item{
     font-family: "Comic Sans MS", serif;
 }
+@media screen and (max-width: 900px) {
+    .card {
+        width: 1170px;
+    }
+}
