@@ -108,6 +108,10 @@ h1 {
     font-weight: bold;
     transform: scale(1.1);
 }
+.block1 a img {
+    width: 100px;
+    height: 200px;
+}
 @media screen and (max-width: 900px) {
     .card {
         width: 300px;
@@ -156,5 +160,9 @@ h1 {
         width: 150px;
         font-size: 15px;
         border-radius: 5px;
+    }
+    .block1 a img {
+        width: 100px;
+        height: 200px;
     }
 }
