@@ -147,4 +147,7 @@ h1 {
         heght: 30px;
         width: 200px;
     }
+    .submit {
+        margin-left: -200px;
+    }
 }
