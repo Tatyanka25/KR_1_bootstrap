@@ -121,4 +121,10 @@ h1 {
     .dropdown-menu li{
         font-size: 17px;
     }
+    fieldset {
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px;
+        width: 500px;
+    }
 }
