@@ -151,7 +151,7 @@ ol{
         height: 80px;
     }
     .block1 {
-    margin-top:-150px;
+        margin-top:-150px;
     }
     p {
         font-size: 10px;
@@ -160,9 +160,9 @@ ol{
         font-size: 10px;
     }
     .zakladka div{
-    display: inline-block;
-    padding: 0 5px;
-    font-size: 8px;
+        display: inline-block;
+        padding: 0 5px;
+        font-size: 8px;
     }
     .carusel {
         height: 400px;
