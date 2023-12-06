@@ -167,4 +167,11 @@ ol{
     .carusel {
         height: 400px;
     }
+    .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+    .dropdown-menu li{
+        font-size: 17px;
+    }
 }
