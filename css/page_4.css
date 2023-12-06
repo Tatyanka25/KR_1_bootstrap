@@ -111,6 +111,7 @@ h1 {
 @media screen and (max-width: 900px) {
     .card {
         width: 500px;
+        margin-left: 30px;
     }
     .navbar-brand img {
         width: 40px;
